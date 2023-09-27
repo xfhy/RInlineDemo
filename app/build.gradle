@@ -1,8 +1,10 @@
-import transform.inline.RFileMinifyTransformPlugin
+//import transform.inline.RFileMinifyTransformPlugin
 
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
 //apply plugin: 'kotlin-android'
-apply plugin: RFileMinifyTransformPlugin
+//apply plugin: RFileMinifyTransformPlugin
 
 android {
     compileSdkVersion 33
