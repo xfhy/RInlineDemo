@@ -2,3 +2,4 @@ rootProject.name = "R文件瘦身Demo"
 include ':app'
 include ':mylibrary'
 include ':mylibrary2'
+include ':baselib'
