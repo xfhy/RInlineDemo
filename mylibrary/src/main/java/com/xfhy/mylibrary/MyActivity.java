@@ -18,7 +18,7 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
 
-        Log.d("xfhy", "a=" + getString(R.string.base_lib_str));
+        Log.d("xfhy", "a=" + getString(com.xfhy.baselib.R.string.base_lib_str));
         startActivity(new Intent(this, BaseLibActivity.class));
     }
 }

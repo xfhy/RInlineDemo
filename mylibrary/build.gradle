@@ -4,10 +4,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
+    namespace 'com.xfhy.mylibrary'
+    compileSdk 33
 
     defaultConfig {
-        minSdkVersion 21
+        minSdk 21
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"

@@ -20,7 +20,7 @@ public class MySecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_second);
 
-        Log.d("xfhy", "str=" + getString(R.string.base_lib_str));
+        Log.d("xfhy", "str=" + getString(com.xfhy.baselib.R.string.base_lib_str));
         startActivity(new Intent(this, BaseLibActivity.class));
     }
 }
